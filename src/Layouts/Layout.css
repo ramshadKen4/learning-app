@@ -1,0 +1,23 @@
+/* Layout.css */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header.css */
+  .header {
+    /* Styles for the header */
+  }
+  
+  /* Main.css */
+  .main {
+    /* Grow to fill remaining space */
+    /* Styles for the main section */
+  }
+  
+  /* Footer.css */
+  .footer {
+    /* Styles for the footer */
+  }
+  

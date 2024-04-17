@@ -1,14 +1,17 @@
+import Footer from '../Layouts/Footer';
+import Header from '../Layouts/Header';
+import Layout from '../Layouts/Layout';
+import Main from '../Layouts/Main';
 import logo from '../logo.svg';
 import './App.css';
-import Name from './header/Name';
-import Title from './header/Title';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <Title/>
-      </header>
-      <Name/>
+      <Layout>
+        <Header />
+        <Main />
+        <Footer />
+      </Layout>
     </div>
   );
 }
