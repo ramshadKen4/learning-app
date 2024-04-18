@@ -1,5 +1,5 @@
 import React from 'react'
-import Skill from './Skill'
+import Product from './Product'
 import './Skills.css'
 function Skills() {
   return (
@@ -8,16 +8,16 @@ function Skills() {
             Skills Covered
         </div>
         <div className='skills-items'>
-            <Skill icon={"html.png"}>HTML</Skill>
-            <Skill icon={"java.png"}>Core Java</Skill>
-            <Skill icon={"css.png"}>CSS</Skill>
-            <Skill icon={"bootstrap.png"}>Bootstrap</Skill>
-            <Skill icon={"mysql.png"}>MySql</Skill>
-            <Skill icon={"react.png"}>React Js</Skill>
-            <Skill icon={"jsp.png"}>JSP</Skill>
-            <Skill icon={"servlet.png"}>Servlets</Skill>
-            <Skill icon={"python.png"}>Python</Skill>
-            <Skill icon={"jdbc.png"}>JDBC</Skill>
+            <Product icon={"html.png"}>HTML</Product>
+            <Product icon={"java.png"}>Core Java</Product>
+            <Product icon={"css.png"}>CSS</Product>
+            <Product icon={"bootstrap.png"}>Bootstrap</Product>
+            <Product icon={"mysql.png"}>MySql</Product>
+            <Product icon={"react.png"}>React Js</Product>
+            <Product icon={"jsp.png"}>JSP</Product>
+            <Product icon={"servlet.png"}>Servlets</Product>
+            <Product icon={"python.png"}>Python</Product>
+            <Product icon={"jdbc.png"}>JDBC</Product>
 
         </div>
     </div>
