@@ -1,0 +1,109 @@
+/* Placement.css */
+.placement {
+  position: relative;
+}
+
+.introducation {
+  position: relative;
+  height: 32px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.12px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #282727;
+}
+
+/* Styles for the heading */
+.heading {
+  position: relative;
+  height: 32px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 47.96px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #282727;
+}
+
+/* Styles for the button container */
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  gap: 37px;
+  position: absolute;
+  height: 780px;
+  left: 407px;
+  top: 160px;
+}
+
+/* Styles for the buttons */
+.chat-btn,
+.contact-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the stats container */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Four columns by default */
+  gap: 20px;
+  /* Adjust the gap between items */
+  /* Full width */
+  /* Adjust top position as needed */
+}
+
+/* Styles for the stats items */
+.stats-item {
+  position: relative;
+  border-right: 2px solid #686868;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.54px;
+  line-height: 121.23%; /* Keep line-height consistent */
+  color: #3B3C3C; /* Apply text color */
+  text-align: center;
+}
+
+/* Styles for the count */
+/* Styles for the count */
+.number {
+  font-weight: 800;
+  font-size: 47.54px; /* Set the font size */
+  line-height: 121.23%; /* Keep line-height consistent */
+  color: #3B3C3C; /* Apply text color */
+}
+
+/* Styles for the caption */
+.caption {
+  font-family: 'AktivGrotesk-Regular'; /* Apply font family */
+  font-style: normal;
+  font-weight: 200;
+  font-size: 29.96px; /* Set the font size */
+  line-height: 121.23%; /* Keep line-height consistent */
+  color: #282727; /* Apply text color */
+}
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+  }
+
+  .heading {
+    font-size: 37.96px;
+    left: 10px;
+  }
+}

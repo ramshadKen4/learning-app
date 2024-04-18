@@ -1,13 +1,15 @@
 import React from 'react'
 
-function Stats() {
+function Stats({ count, children }) {
     return (
         <div className='stats'>
-            <div className='number'>
-                550+
-            </div>
-            <div className='caption'>
-                Students Enrolled
+            <div className='stats-item'>
+                <div className='number'>
+                    {count}
+                </div>
+                <div className='caption'>
+                    {children}
+                </div>
             </div>
         </div>
     )
