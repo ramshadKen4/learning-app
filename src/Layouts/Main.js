@@ -1,9 +1,11 @@
 import React from 'react'
-
+import BlogContent from '../components/Main/BlogContent'
+import Skills from '../components/Main/Skills'
 function Main() {
     return (
         <div className='main'>
-            Main
+            <BlogContent/>
+            <Skills/>
         </div>
     )
 }
