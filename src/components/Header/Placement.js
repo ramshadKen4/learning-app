@@ -1,6 +1,7 @@
 import React from 'react'
 import Stats from './Stats'
 import './Placement.css'
+import BrochureApply from './BrochureApply'
 
 function Placement() {
   return (
@@ -14,7 +15,7 @@ function Placement() {
         <Stats count="20LPA">Heighest salary</Stats>
       </div>
       <div className='apply-section'>
-          
+          <BrochureApply/>
       </div>
     </div>
   )

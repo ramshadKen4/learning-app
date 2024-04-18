@@ -1,0 +1,52 @@
+/* BrochureApply.css */
+.brochure-apply {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the buttons */
+  }
+  
+  .brochure-btn,
+  .apply-btn {
+    margin: 10px; /* Adjust margin between buttons */
+    font-family: 'AktivGrotesk-Bold', sans-serif; /* Set font family */
+    border-radius: 8px; /* Set border radius */
+    padding: 14px 60px; /* Set padding */
+    color: #fff; /* Set text color */
+    background-color: #016612; /* Set background color */
+    border: 1px solid transparent; /* Set border */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Add transition effect */
+  }
+  
+  .apply-btn {
+    background-color: #016612; /* Set background color for Download Brochure button */
+  }
+  
+  .brochure-btn {
+    border: 1px solid #016612; /* Set border */
+    background-color: transparent; /* Set transparent background for Apply Now button */
+    color: #016612; /* Set text color for Apply Now button */
+  }
+  .brochure-btn:hover{
+    background-color: #016612; /* Set background color for Download Brochure button */
+    color: #fff;
+  }
+  .apply-btn:hover {
+    border: 1px solid #016612; /* Set border */
+    background-color: transparent; /* Change background color on hover */
+    color: #016612; /* Change text color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .brochure-apply {
+      flex-direction: column; /* Display buttons in a column on mobile */
+      align-items: center; /* Center align the buttons on mobile */
+    }
+  
+    .brochure-btn,
+    .apply-btn {
+      width: 90vw; /* Make buttons full width on mobile */
+    }
+  }
+  

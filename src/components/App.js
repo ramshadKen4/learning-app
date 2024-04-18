@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Layout>
         <Header/>
+        <Main/>
       </Layout>
     </div>
   );
