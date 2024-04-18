@@ -8,7 +8,7 @@ function PostCard({ heading, caption, image, children }) {
                 <p>{caption}</p>
             </div>
             <div className='post-content'>
-                <img src={'/images/'+image} alt='Post' />
+                <img className = "post-content-img"src={'/images/'+image} alt='Post' />
                 <div>{children}</div>
             </div>
         </div>
