@@ -1,0 +1,47 @@
+.post-card {
+  margin: 30px;
+  position: relative;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-header h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.post-header p {
+  font-size: 16px;
+  color: #888;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-content img {
+  width: 100%;
+  max-width: 300px;
+  /* Adjust as needed */
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .post-content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .post-content img {
+    max-width: none;
+    width: auto;
+    margin-right: 20px;
+  }
+}
