@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from './Product'
+import Product from '../utility/Product'
 import './Skills.css'
 function Skills() {
   return (
@@ -18,7 +18,6 @@ function Skills() {
             <Product icon={"servlet.png"}>Servlets</Product>
             <Product icon={"python.png"}>Python</Product>
             <Product icon={"jdbc.png"}>JDBC</Product>
-
         </div>
     </div>
   )
