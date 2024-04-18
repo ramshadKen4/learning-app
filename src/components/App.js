@@ -4,10 +4,12 @@ import Layout from '../Layouts/Layout';
 import Main from '../Layouts/Main';
 import logo from '../logo.svg';
 import './App.css';
+import Logo from './Header/Logo';
 function App() {
   return (
     <div className="App">
       <Layout>
+        <Logo/>
         <Header/>
         <Main/>
       </Layout>

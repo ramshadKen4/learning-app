@@ -6,6 +6,7 @@
 }
 
 .logo {
+    z-index: 1000;
     background-color: #fff;
     position: sticky;
     top: 0;
