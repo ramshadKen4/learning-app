@@ -1,0 +1,7 @@
+.blog-para {
+    color: #282727;
+    font-size: 18px;
+    line-height: 2.8; /* Increase this value to add more space between lines */
+    margin-bottom: 20px;
+    list-style-type: none;
+}

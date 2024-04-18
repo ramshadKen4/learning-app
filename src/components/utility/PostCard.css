@@ -1,8 +1,10 @@
 .post-card {
   margin: 30px;
   position: relative;
-  border: 2px solid #ccc;
-  border-radius: 8px;
+  border: 1px solid rgba(110, 110, 110, 0.5); /* Lighter border color with opacity */
+  border-radius: 12px; /* Rounded corners */
+  background-color: #fff; /* Lighter background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -28,7 +30,7 @@
 
 .post-content img {
   width: 100%;
-  max-width: 300px;
+  max-width: 100px;
   /* Adjust as needed */
   margin-right: 20px;
 }
