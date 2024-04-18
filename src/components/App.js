@@ -8,8 +8,8 @@ import Logo from './Header/Logo';
 function App() {
   return (
     <div className="App">
-      <Layout>
         <Logo/>
+      <Layout>
         <Header/>
         <Main/>
       </Layout>

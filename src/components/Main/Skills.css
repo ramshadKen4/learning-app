@@ -5,15 +5,18 @@
 
 .skills-heading {
     font-family: 'AktivGrotesk-Bold';
-    font-size: 69.05px;
+    font-size: 59px;
+    margin-bottom: 11px;
     line-height: 83px;
     color: #3B3C3C;
 }
+
 .skills-items {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);    
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
+
 .skill {
     display: flex;
     flex-direction: column;
@@ -21,8 +24,18 @@
 }
 
 @media (max-width: 768px) {
+    .skills-heading {
+        font-size: 45px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
     .skills-items {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
+    }
+
+    .skill {
+        row-gap: 35px;
     }
 }
