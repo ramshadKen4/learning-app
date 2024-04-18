@@ -1,0 +1,25 @@
+.blog-content {
+    border-radius: 16px;
+    border: 1px solid rgba(110, 110, 110, 1);
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 40px;
+    margin:20px;
+  }
+  
+  .blog-heading {
+    color: #3b3c3c;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .blog-paragraph {
+    color: #282727;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
