@@ -1,0 +1,30 @@
+
+.programinfo {
+}
+.program-para {
+    color: #282727;
+    font-size: 18px;
+    line-height: 2.8;
+    margin-left: 10px;
+    /* Increase this value to add more space between lines */
+    margin-bottom: 20px;
+}
+.check-tick {
+    margin-right: 10px;
+}
+.none-style-ul {
+    list-style-type: none;
+}
+
+
+@media (max-width: 768px) {
+    .program-para {
+        color: #282727;
+        line-height: 1;
+    }
+
+    .check-tick {
+        font-size: 10;
+    }
+
+}
