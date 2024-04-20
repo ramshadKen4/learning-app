@@ -8,10 +8,11 @@ import Logo from './Header/Logo';
 function App() {
   return (
     <div className="App">
-        <Logo/>
+      <Logo />
       <Layout>
-        <Header/>
-        <Main/>
+        <Header />
+        <Main />
+        <Footer />
       </Layout>
     </div>
   );
