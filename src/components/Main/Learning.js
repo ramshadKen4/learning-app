@@ -5,7 +5,6 @@ import './Learning.css'
 function Learning() {
     return (
         <div className='learning'>
-            <div>Content above the learning journey</div>
             <PostCard
                 heading="Learning journey"
                 image="learning.png"
