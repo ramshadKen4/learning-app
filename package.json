@@ -1,5 +1,6 @@
 {
   "name": "learning-app",
+  "homepage": "https://fullstack.peopleclick.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
