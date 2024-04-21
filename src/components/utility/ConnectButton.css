@@ -1,0 +1,26 @@
+.connect-btn button {
+    font-family: 'AktivGrotesk-Bold', sans-serif;
+    border-radius: 8px;
+    padding: 18px 100px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #016612;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+}
+
+.connect-btn button:hover {
+    border: 1px solid #016612;
+    background-color: transparent;
+    color: #016612;
+}
+@media (max-width: 768px) {
+    .connect-btn button {
+        font-weight: 600px;
+        padding: 18px 60px;
+    }
+}

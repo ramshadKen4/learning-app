@@ -1,6 +1,7 @@
 import React from 'react'
 import PostCard from '../utility/PostCard'
 import './Learning.css'
+import ConnectButton from '../utility/ConnetButton'
 
 function Learning() {
     return (
@@ -17,6 +18,7 @@ function Learning() {
                     <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Industry-Recognized certificates</li>
                     <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Participating in practice interviews & CV preparation</li>
                     <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Getting ready for placements</li>
+                    <ConnectButton/>
                 </ul>
             </PostCard>
         </div>
