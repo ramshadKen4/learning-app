@@ -23,9 +23,41 @@
     max-height: 100%;
 }
 
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+
+
+.placement {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.heading {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
 /* Media query for mobile view */
 @media (max-width: 768px) {
     .partner-container {
         grid-template-columns: 1fr;
+    }
+
+    .testimonial {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin: 25px;
+    }
+
+    .placement {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
     }
 }
