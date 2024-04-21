@@ -4,7 +4,6 @@ import PostCard from '../utility/PostCard'
 function FullstackCourse() {
     return (
         <div className='learning'>
-            <div>Content above the learning journey</div>
             <PostCard
                 heading="Full-stack developer course objectives"
                 image="fullstack.png"
