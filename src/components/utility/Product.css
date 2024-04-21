@@ -6,7 +6,9 @@
 
 @media (max-width: 768px) {
     .product {
-        row-gap: 35px;
-        max-width: 90vw;
+        row-gap: 30px;
+    }
+    .product-icon img{
+        max-width: 102px;
     }
 }
