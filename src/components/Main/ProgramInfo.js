@@ -12,12 +12,9 @@ function ProgramInfo() {
                     heading="Eligibility"
                 >
                     <ul className='program-para none-style-ul'>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Weekly live instruction classes</li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Hands-on live projects</li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Industry-relevant live bootcamps</li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Industry-Recognized certificates</li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Participating in practice interviews & CV preparation</li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Getting ready for placements</li>
+                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Computer science Graduates  </li>
+                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />working professionals</li>
+                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />IT background students degree with BCA , BSC , BE  etc</li>
                     </ul>
                 </PostCard>
             </div>

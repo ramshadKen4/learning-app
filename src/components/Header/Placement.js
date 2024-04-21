@@ -6,8 +6,8 @@ import BrochureApply from './BrochureApply'
 function Placement() {
   return (
     <div className='placement-section'>
-      <p className='introducation'>People click learning provides the best Full stack training in bangalore with </p>
-      <p className='heading'>100% Job Placements</p>
+      <p className='introduction'>People click learning provides the best Full stack training in bangalore with </p>
+      <h3 className='placement-heading'>100% Job Placements</h3>
       <div className='stats-container'>
         <Stats count="550+">Students Enrolled</Stats>
         <Stats count="400+">Placements</Stats>

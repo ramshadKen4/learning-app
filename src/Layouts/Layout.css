@@ -11,15 +11,23 @@
   .header {
     /* Styles for the header */
   }
-  
   /* Main.css */
   .main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px;
+    gap: 40px;
     /* Grow to fill remaining space */
     /* Styles for the main section */
   }
-  
   /* Footer.css */
   .footer {
     /* Styles for the footer */
   }
   
+  @media (max-width: 768px) {
+    .main{
+      margin: 0px 24px;
+      gap: 24px;
+    }
+  }

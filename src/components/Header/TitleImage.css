@@ -9,7 +9,6 @@
 .title {
     flex-basis: 50%;
     height: 300px;
-    /* Adjust the height as needed */
     margin-bottom: 10px;
     margin-top: 40px;
     display: flex;
@@ -41,7 +40,15 @@
 
     .title,
     .image {
+        margin-top: 0px;
         flex-basis: 100%;
         /* Full width on mobile */
     }
+
+.title {
+ 
+    height: 150px;
+    /* Center vertically */
+}
+
 }

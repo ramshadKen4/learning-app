@@ -1,24 +1,33 @@
-.container {
+.launchpad-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     gap: 20px;
-    padding: 10px;
 }
 
 .item {
     width: 100%;
-    /* Adjust according to your design */
+    flex-wrap: wrap;
+}
+
+.launchpad-heading {
+    color: #3b3c3c;
+    font-family: 'Aktiv Grotesk Bold', sans-serif;
+    font-size: 39.96px;
 }
 
 /* Mobile view */
 @media (max-width: 767px) {
-    .container {
+    .launchpad-container {
         display: grid;
         grid-template-columns: 1fr;
     }
 
     .item {
         width: 100%;
+    }
+
+    .launchpad-heading {
+        font-size: 23.33;
     }
 }
