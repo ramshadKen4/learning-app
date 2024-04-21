@@ -1,3 +1,15 @@
 .App {
- margin: 0;
+    margin: 0;
+}
+.heading {
+    display: block;
+    color: #3b3c3c;
+    font-family: 'Aktiv Grotesk Bold', sans-serif;
+    font-size: 49px;
+    margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+    .heading {
+        font-size: 33.59px;
+    }
 }

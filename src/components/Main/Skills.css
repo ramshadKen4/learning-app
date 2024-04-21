@@ -1,13 +1,12 @@
 .skills {
     position: relative;
+    margin-top: 20px;
 }
 
 .skills-heading {
-    font-family: 'AktivGrotesk-Bold';
-    font-size: 59px;
-    margin-bottom: 11px;
-    line-height: 83px;
-    color: #3B3C3C;
+    font-weight: bold;
+    font-size: 69px;
+    margin-bottom: 20px;
 }
 
 .skills-items {

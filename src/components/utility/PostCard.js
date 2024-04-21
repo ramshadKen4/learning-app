@@ -4,7 +4,7 @@ function PostCard({ heading, caption, image, children }) {
     return (
         <div className='post-card'>
             <div className='post-header'>
-                <h2>{heading}</h2>
+                <h2 className='heading'>{heading}</h2>
                 <p>{caption}</p>
             </div>
             <div className='post-content'>

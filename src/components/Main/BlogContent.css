@@ -5,13 +5,14 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
-    margin-top: 40px
+    margin-top: 40px;
   }
   
   .blog-heading {
     color: #3b3c3c;
-    font-size: 40px;
+    font-family: 'Aktiv Grotesk Bold',sans-serif;
     font-weight: bold;
+    font-size: 69px;
     margin-bottom: 20px;
   }
   

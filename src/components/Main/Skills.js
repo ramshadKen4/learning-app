@@ -4,7 +4,7 @@ import './Skills.css'
 function Skills() {
   return (
     <div className='skills'>
-        <div className='skills-heading'>
+        <div className='skills-heading heading'>
             Skills Covered
         </div>
         <div className='skills-items'>
