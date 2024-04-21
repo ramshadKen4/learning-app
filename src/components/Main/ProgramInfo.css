@@ -1,6 +1,7 @@
 
-.programinfo {
-}
+.programinfo > .post-card  {
+    background-color: #DAEAF6;
+}s
 .program-para {
     color: #282727;
     font-size: 18px;

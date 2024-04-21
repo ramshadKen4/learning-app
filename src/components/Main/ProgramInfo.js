@@ -26,7 +26,7 @@ function ProgramInfo() {
     }
     function ProgramHighlights() {
         return (
-            <div className='programinfo'>
+            <div className='program'>
 
                 <PostCard
                     heading="Program Highlights"
