@@ -1,5 +1,6 @@
 .tools {
     position: relative;
+    margin:0;
 }
 
 .tools-heading {
@@ -25,8 +26,6 @@
     }
 
     .tools-items {
-        max-width: 16px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
     }
 }
