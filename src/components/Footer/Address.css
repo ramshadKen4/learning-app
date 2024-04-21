@@ -1,0 +1,41 @@
+.address-container {
+    background-color: #016612;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.address-section {
+    color: #ffffff;
+}
+
+.address-text {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.27px;
+    line-height: 32px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.phone-numbers {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.27px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+}
+
+.separator {
+    width: 1px;
+    height: 200px;
+    background-color: #599563;
+}
