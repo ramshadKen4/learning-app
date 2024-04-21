@@ -1,0 +1,67 @@
+.sticky-buttons-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .sticky-buttons-container.visible {
+    opacity: 1;
+  }
+  
+  .sticky-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 665px;
+    width: 100%;
+  }
+  
+  .button-container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 39px;
+    gap: 10px;
+    background-color: #01bc20;
+    border-radius: 4px;
+  }
+  
+  .button-container:last-child {
+    background-color: #016612;
+  }
+  
+  .button-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .button-text {
+    
+    font-family: 'AktivGrotesk-Medium';
+    font-size: 23.33px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  @media (max-width: 767px) {
+    .sticky-buttons-container {
+    }
+  
+    .sticky-buttons {
+      flex-direction: row;
+    }
+  
+    .button-container {
+      flex-direction: row;
+      width: 100%;
+      border-radius: 0px;
+    }
+  }

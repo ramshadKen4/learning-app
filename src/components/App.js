@@ -5,14 +5,16 @@ import Main from '../Layouts/Main';
 import logo from '../logo.svg';
 import './App.css';
 import Logo from './Header/Logo';
+import StickyButtons from './utility/StickyButtons';
 function App() {
   return (
     <div className="App">
-      <Logo />
       <Layout>
-        <Header />
-        <Main />
-        <Footer />
+        <Logo/>
+        <Header/>
+        <Main/>
+        <Footer/>
+        <StickyButtons/>
       </Layout>
     </div>
   );
