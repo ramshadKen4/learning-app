@@ -3,29 +3,38 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
+    row-gap:30px;
 }
-
 .title {
-    flex-basis: 50%;
-    height: 300px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Center vertically */
+    color:#3B3C3C;
+}
+.title h4 {
+    margin:0;
+    font-family:aktiv-bold;
+    font-weight: 400;
+    font-size: 47.96px;
+}
+.title h1 {
+    margin:0;
+    font-family: aktiv-bold;
+    font-weight: 400;
+    font-size: 82.86px;
+}
+.title h5 {
+    margin:0;
+    font-family: aktiv-light;
+    font-weight:300;
+    font-size: 57.54px;
+    margin-left:127px;
+    color:#282727;
+    letter-spacing:11%;
 }
 
 .image {
     flex-basis: 50%;
 }
 
-.title img {
-
-    max-width: 100%;
-    height: auto;
-}
 
 .image img {
     /* Group 96 */
@@ -33,25 +42,35 @@
     height: 499.6px;
     max-width: 100%;
     height: auto;
-    border-radius: 48px;
-    /* Adjust the value as needed */
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
-    /* Green shadow with a blur radius of 10px */
 }
 
 @media (max-width: 768px) {
 
-    .title,
     .image {
         margin-top: 0px;
         flex-basis: 100%;
-        /* Full width on mobile */
     }
 
     .title {
-
-        height: 150px;
-        /* Center vertically */
+        padding: 0;
+        margin: 0;
+    }
+    .title h4 {
+        margin:0;
+        font-family:aktiv-bold;
+        font-size: 27.99px;
+    }
+    .title h1 {
+        margin:0;
+        font-family:aktiv-bold;
+        font-size: 40.31px;
+    }
+    .title h5 {
+        margin:0;
+        font-family:aktiv-light;
+        font-weight:300;
+        font-size:27.99px;
+        margin-left:62px;
     }
 
 }
