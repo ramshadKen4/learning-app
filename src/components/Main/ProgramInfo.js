@@ -11,9 +11,9 @@ function ProgramInfo() {
                 <PostCard
                     heading="Eligibility"
                 >
-                    <ul className='program-para none-style-ul'>
+                    <ul className='program-para none-style-ul para'>
                         <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Computer science Graduates  </li>
-                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />working professionals</li>
+                        <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />Working professionals</li>
                         <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />IT background students degree with BCA , BSC , BE  etc</li>
                     </ul>
                 </PostCard>
@@ -28,7 +28,7 @@ function ProgramInfo() {
                 <PostCard
                     heading="Program Highlights"
                 >
-                    <ol className='program-para'>
+                    <ol className='program-para para'>
                         <li>Designed for working professionals and graduates</li>
                         <li>Practical hands on training</li>
                         <li>One to one and group classes with Experienced mentors</li>

@@ -1,14 +1,19 @@
 .blog-para {
     color: #282727;
-    font-size: 18px;
-    line-height: 2.8;
-    /* Increase this value to add more space between lines */
-    margin-bottom: 20px;
+    font-family: 'aktiv' !important;
     list-style-type: none;
 }
 
 .check-tick {
     margin: 0;
+    margin-right: 15px;
+}
+
+.conncect-button-xl {
+    width: 440px;
+    height: 60px;
+    margin-left: 45px;
+    margin-top: -10px;
 }
 
 @media (max-width: 768px) {
@@ -17,8 +22,18 @@
         font-size: 18px;
     }
 
+    .blog-para li {
+        margin: 15px 0;
+    }
+
     .check-tick {
+        max-width: 22px;
+        max-height: 22px;
         font-size: 10;
+    }
+
+    .conncect-button-xl {
+        display: none;
     }
 
 }

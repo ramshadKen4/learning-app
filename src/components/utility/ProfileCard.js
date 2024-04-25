@@ -6,7 +6,7 @@ function ProfileCard({profilePic, name, company, bg, children}) {
     <div class="profile-card" style={{backgroundColor:bg}}>
       <div class="profile-pic-container">
         <div class="profile-pic">
-          <img src={"/icons/" + profilePic} alt="Profile Picture" />
+          <img src={"/icons/" + profilePic} alt="Profile Pic" />
         </div>
       </div>
       <div class="client-info">

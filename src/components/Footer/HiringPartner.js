@@ -2,23 +2,23 @@ import React from 'react';
 import './style.css'
 
 const images = [
+  'pwc.svg',
+  'genpact.svg',
+  'ibm.svg',
+  'wipro.svg',
   'accenture.svg',
   'allianz.svg',
-  'genpact.svg',
+  'iquanti.svg',
+  'infosys.svg',
   'gyansys.svg',
   'hcl.svg',
-  'ibm.svg',
-  'infosys.svg',
-  'iquanti.svg',
   'landt.svg',
-  'pwc.svg',
-  'wipro.svg'
 ];
 
 function HiringPartner() {
   return (
     <div>
-      <h2 className='heading'>Our hiring partners</h2>
+      <h2 className='extraspace heading'>Our Hiring Partners :</h2>
       <div className='partner-container'>
         {images.map((imageName, index) => (
           <div className='partner-item' key={index}>

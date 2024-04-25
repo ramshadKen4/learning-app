@@ -4,25 +4,24 @@
 }
 
 .introduction {
-  position: relative;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
   font-size: 23.12px;
   line-height: 32px;
+  /* identical to box height, or 138% */
   letter-spacing: 0.01em;
   color: #282727;
+
 }
 
-/* Styles for the heading */
 .placement-heading {
-  position: relative;
-  height: 32px;
+  margin-top:0;
   font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 900;
+  font-style: black;
+  line-height: 32px;
+  letter-spacing: 1%;
   font-size: 47.96px;
-  letter-spacing: 0.01em;
   color: #282727;
 }
 
@@ -56,50 +55,64 @@
 .stats-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* Four columns by default */
   gap: 20px;
-  /* Adjust the gap between items */
-  /* Full width */
-  /* Adjust top position as needed */
 }
 
-/* Styles for the stats items */
 .stats-item {
+  margin-right: -10px;
   position: relative;
-  border-right: 2px solid #686868;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 57.54px;
-  line-height: 121.23%; /* Keep line-height consistent */
-  color: #3B3C3C; /* Apply text color */
-  text-align: center;
+  color: #3B3C3C;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Styles for the count */
-/* Styles for the count */
+.stats-container>.stats:last-child .stats-item {
+  border-right: none;
+}
+
+
 .number {
-  font-weight: 800;
-  font-size: 47.54px; /* Set the font size */
-  line-height: 121.23%; /* Keep line-height consistent */
-  color: #3B3C3C; /* Apply text color */
+  font-family: 'Aktiv-bold', sans-serif;
+  font-size: 57.54px;
+  font-weight: 400;
+  line-height: 121.23%;
+  color: #3B3C3C;
 }
 
 /* Styles for the caption */
 .caption {
-  font-family: 'AktivGrotesk-Regular'; /* Apply font family */
+  font-family: 'Aktiv-Regular', sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 29.96px; /* Set the font size */
-  line-height: 121.23%; /* Keep line-height consistent */
-  color: #282727; /* Apply text color */
+  font-size: 35px;
+  /* Set the font size */
+  color: #282727;
+  /* Apply text color */
 }
+
 /* Media query for mobile view */
 @media (max-width: 768px) {
-  .placement-heading{
+  .placement-heading {
     font-size: 27.96px;
   }
+
   .stats-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-container>.stats:nth-child(2n) .stats-item,
+  .stats-container>.stats:last-child .stats-item {
+    border-right: none;
+  }
+
+  .number {
+    font-size: 23px;
+  }
+
+  /* Styles for the caption */
+  .caption {
+    font-size: 16.2px;
+    color: #282727;
+    /* Set the font size */
   }
 
 }

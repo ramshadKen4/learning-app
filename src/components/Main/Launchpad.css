@@ -6,14 +6,26 @@
 }
 
 .item {
-    width: 100%;
-    flex-wrap: wrap;
+    border: 1px solid rgba(110, 110, 110, 0.5);
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding:10px 40px;
 }
 
 .launchpad-heading {
     color: #3b3c3c;
-    font-family: 'Aktiv Grotesk Bold', sans-serif;
+    font-family: Aktiv;
     font-size: 39.96px;
+}
+
+.launchpad-para {
+    justify-content: center;
+    font-family: 'Merriweather';
+    font-size: 23.12px;
+    line-height: 46px;
+    letter-spacing: 1%;
+    color: #282727;
 }
 
 /* Mobile view */
@@ -24,10 +36,14 @@
     }
 
     .item {
-        width: 100%;
     }
 
     .launchpad-heading {
-        font-size: 23.33;
+        font-size: 23.33px;
+    }
+
+    .launchpad-para {
+        font-size: 16px;
+        line-height:30px;
     }
 }

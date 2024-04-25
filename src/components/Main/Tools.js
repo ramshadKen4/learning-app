@@ -4,7 +4,7 @@ import './Tools.css'
 function Tools() {
     return (
         <div className='tools'>
-            <div className='heading'>
+            <div className='extraspace heading'>
                 Tools Covered
             </div>
             <div className='tools-items'>

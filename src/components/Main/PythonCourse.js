@@ -3,6 +3,7 @@ import PostCard from '../utility/PostCard'
 // import './PythonCourse.css'
 
 function PythonCourse() {
+    const heading = <><span className='aktiv-thin'>What are all the major things covered in our</span> Python Full-stack Development <span className='aktiv-thin'>course</span></>
     const style = {
         color: '#282727',
         fontSize: '18px',
@@ -11,15 +12,14 @@ function PythonCourse() {
         marginBsottom: '20px'
     }
     return (
-        <div className='learning'>
+        <div className='python'>
             <PostCard
-                heading="things covered in our Python Full-stack development course"
+                heading={heading}
                 image="python-course.png"
-                caption="Our Full stack development program is offered on both online and offline classes"
             >
-                <p style={style}>
+                <div className='para'>
                     Core Python, Advanced Python, MySQL, Rest API, React JS, GITHUB, HTML, CSS, Bootstrap, JavaScript, J Query, and real-world applications are all included in our course.
-                </p>
+                </div>
             </PostCard>
         </div>
     )

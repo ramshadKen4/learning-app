@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfileCard from '../utility/ProfileCard';
+import ConnectButton from '../utility/ConnetButton';
 
 function Placements() {
     const placements = [
@@ -34,7 +35,7 @@ function Placements() {
     ];
     return (
         <>
-            <h2 className='heading'>Our recent placements</h2>
+            <h2 className='extraspace center heading'><span className='aktiv-thin'><i>Our recent</i></span><br />placements</h2>
             <div className='placement'>
                 {placements.map((placement, index) => (
                     <ProfileCard
@@ -44,12 +45,15 @@ function Placements() {
                         bg={placement.bg}
                     >
                         <div>
-                            <p>{placement.company}</p>
-                            <p>{placement.role}</p>
+                            <p className='placement-company'>{placement.company}</p>
+                            <p className='placement-role'>{placement.role}</p>
                         </div>
                     </ProfileCard>
-                ))}
 
+                ))}
+            </div>
+            <div className='booking-btn'>
+                <ConnectButton>Book free consultation</ConnectButton>
             </div>
         </>
     )

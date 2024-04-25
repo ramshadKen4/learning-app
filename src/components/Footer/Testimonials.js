@@ -31,16 +31,16 @@ function Testimonials() {
 
   return (
     <div>
-      <h3 className='heading'>What people say about us</h3>
+      <h3 className='extraspace heading'>What Learners Say About Us :</h3>
       <div className='testimonial'>
         {testimonials.map((testimonial, index) => (
           <ProfileCard
             key={index}
-            name={testimonial.name}
+            name={<span className='testimonial-name'>{testimonial.name}</span>}
             profilePic={testimonial.image}
             bg={testimonial.bg}
           >
-            <blockquote >{testimonial.content}</blockquote>
+            <blockquote className='testimonial-content'>{testimonial.content}</blockquote>
           </ProfileCard>
         ))}
       </div>

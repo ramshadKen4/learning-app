@@ -1,8 +1,7 @@
 .partner-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin: 25px;
+    gap: 45px;
 }
 
 .partner-item {
@@ -10,11 +9,12 @@
     border: 1px solid rgba(110, 110, 110, 0.5);
     border-radius: 12px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 170px;
+    max-width: 400px;
     /* Adjust the height as needed */
 }
 
@@ -24,17 +24,64 @@
 }
 
 .testimonial {
+    font-size: 23px;
     display: grid;
+    gap: 60px;
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
 }
 
+.testimonial-name {
+    font-family: aktiv;
+    font-size: 27px;
+}
 
+.testimonial-content {
+    margin: 10px;
+    font-family: 'Merriweather';
+    font-size: 23px;
+    letter-spacing: 1%;
+    line-height: 40px;
+}
 
 .placement {
+    margin: 20px;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
+    justify-content: space-around;
+}
+
+.placement .client-name {
+    font-family: aktiv-light;
+    font-size: 23px;
+    line-height: 12px;
+}
+
+.placement-company {
+    font-size: 22.2px;
+    font-family: aktiv-medium;
+    line-height: 30px;
+    margin: 0;
+}
+
+.placement-role {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-size: 23.12;
+    line-height: 30px;
+    margin: 0;
+}
+
+.booking-btn {
+    align-self: center;
+    width: 440px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -42,18 +89,50 @@
 @media (max-width: 768px) {
     .partner-container {
         grid-template-columns: 1fr;
+        padding: 10px 20px;
+    }
+
+    .partner-item {
+        max-height: 110px;
+        padding: 20px;
     }
 
     .testimonial {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 25px;
-        margin: 25px;
+        gap: 92px;
+
+    }
+
+    .testimonial-content {
+        font-size: 16.2px;
+        font-family: 'MerriWeather';
+        margin: 10px;
+        line-height: 30px;
     }
 
     .placement {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 10px;
+        row-gap: 70px;
+    }
+
+    .placement-company {
+        font-size: 23.3px;
+    }
+
+    .placement-role {
+        font-size: 16.2;
+    }
+
+    .booking-btn {
+        width: auto;
+        font-size: 40px;
+        height: 60px;
+    }
+
+    .booking-btn button {
+        padding: 0 15px;
+        letter-spacing: 0.5%;
     }
 }

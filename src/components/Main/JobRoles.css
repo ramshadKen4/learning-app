@@ -1,0 +1,41 @@
+.jobroles .post-card {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.jobrole-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    font-family: aktiv-medium;
+    font-size: 22px;
+    row-gap: 18px;
+    list-style-type: none;
+}
+
+.jobrole-para {
+
+    font-family: 'Merriweather';
+    font-size: 23px;
+    line-height: 44px;
+    letter-spacing: 1%;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .jobrole-list {
+        grid-template-columns: 1fr;
+        font-size: 19px;
+        text-align: left;
+        padding: 0 15px;
+        /* One column on mobile */
+    }
+
+    .jobrole-para {
+
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+}

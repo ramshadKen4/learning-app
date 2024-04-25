@@ -1,3 +1,28 @@
+@font-face {
+
+  font-family: aktiv;
+  src: url('/public/font/Aktiv.Grotesk/Aktiv\ Grotesk/OTF/AktivGrotesk-Regular.otf');
+}
+
+@font-face {
+  font-family: aktiv-medium;
+  src: url('/public/font/Aktiv.Grotesk/Aktiv\ Grotesk/OTF/AktivGrotesk-Medium.otf');
+}
+
+@font-face {
+  font-family: aktiv-bold;
+  src: url('/public/font/Aktiv.Grotesk/Aktiv\ Grotesk/OTF/AktivGrotesk-Bold.otf');
+}
+
+@font-face {
+  font-family: aktiv-light;
+  src: url('/public/font/Aktiv.Grotesk/Aktiv\ Grotesk/OTF/AktivGrotesk-Light.otf');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

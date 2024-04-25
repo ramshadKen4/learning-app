@@ -8,7 +8,8 @@ const Address = () => {
                 <p className="address-text">
                     Bangalore<br/>
                     Bhumi Complex<br/>
-                    Sector 7, HSR Layout Bengaluru Karnataka<br/>
+                    Sector 7, HSR Layout 
+                    Bengaluru Karnataka<br/>
                     560102
                 </p>
                 <div className="phone-numbers">
@@ -20,8 +21,10 @@ const Address = () => {
             <div className="address-section">
                 <p className="address-text">
                     Coimbatore<br/>
-                    41A, 2nd floor West Lokamanya<br/>
-                    Street, RS Puram Coimbatore<br/>
+                    41A, 2nd floor
+                    WestLokamanya<br/>
+                    Street, RS Puram
+                    Coimbatore<br/>
                     641002
                 </p>
                 <div className="phone-numbers">

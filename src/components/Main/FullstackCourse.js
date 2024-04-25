@@ -2,14 +2,15 @@ import React from 'react'
 import PostCard from '../utility/PostCard'
 
 function FullstackCourse() {
+    const heading = <div className='extraspace'><span className='aktiv-thin'>Full stack Developer </span>Course Objectives</div>
     return (
         <div className='learning'>
             <PostCard
-                heading="Full-stack developer course objectives"
+                heading={heading}
                 image="fullstack.png"
             >
-                <ul className='blog-para'>
-                    <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />
+                <ul className='fullstack-list' style={{ listStyleType: 'none'}}>
+                    <li className=''><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />
                         Understanding the foundations of HTML, CSS, and Java-script in web development.</li>
                     <li><img src="/icons/check-mark.png" className="check-tick" alt="Check Mark Icon" />
                         Gaining experience with front-end development and using frameworks such as React or Angular.</li>

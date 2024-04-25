@@ -1,14 +1,40 @@
 .product {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    row-gap:30px;
+    margin-bottom: 45px;
+}
+
+.product-icon {
+    margin-bottom: auto;
+}
+
+.product-name {
+    font-family: 'Aktiv-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.75px;
+    line-height: 33px;
 }
 
 @media (max-width: 768px) {
     .product {
-        row-gap: 30px;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 25px;
     }
-    .product-icon img{
+
+    .product-icon img {
+        max-height: 102px;
         max-width: 102px;
+    }
+
+    .product-icon {
+        
+    }
+
+    .product-name {
+        font-size: 16.2px;
+        text-align: end;
     }
 }

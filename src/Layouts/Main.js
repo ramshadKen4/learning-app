@@ -11,20 +11,24 @@ import CareerSupport from '../components/Main/CareerSupport'
 import Launchpad from '../components/Main/Launchpad'
 import TrainingProfile from '../components/Main/TrainingProfile'
 import JobRoles from '../components/Main/JobRoles'
+import ConnectButton from '../components/utility/ConnetButton'
 function Main() {
     return (
         <div className='main'>
             <BlogContent />
             <Skills />
             <Learning />
+            <div className='connect-button-mobile'>
+                <ConnectButton>Connect With us</ConnectButton>
+            </div>
             <Tools />
             <PythonCourse />
             <ProgramInfo />
             <FullstackCourse />
             <CareerSupport />
             <Launchpad />
-            <TrainingProfile/>
-            <JobRoles/>
+            <TrainingProfile />
+            <JobRoles />
         </div>
     )
 }
