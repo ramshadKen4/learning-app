@@ -1,11 +1,26 @@
 // ConnectButton.js
-import React from 'react';
+import React, { useState } from 'react';
 import './ConnectButton.css';
-function ConnectButton() {
+import Modal from './Modal';
+function ConnectButton({ children }) {
+
+  const [showModal, setShowModal] = useState(false)
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
-    <div className='connect-btn'>
-      <button>Connect with Us</button>
-    </div>
+    <>
+      <div className='connect-btn'>
+        <button onClick={handleOpenModal}>{children}</button>
+      </div>
+      <Modal isOpen={showModal} onClose={handleCloseModal} />
+    </>
   );
 }
 
