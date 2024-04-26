@@ -5,7 +5,7 @@ import ConnectButton from '../utility/ConnetButton'
 function BrochureApply() {
     return (
         <div className='brochure-apply'>
-            <button className='brochure-btn'>Download Brochure</button>
+            <button className='brochure-btn'><a href='/brochure.pdf' download={'fullstack-brochure.pdf'}>Download Brochure</a></button>
             <div className='apply-btn'><ConnectButton >Apply Now</ConnectButton></div>
         </div>
     )

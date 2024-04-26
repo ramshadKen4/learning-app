@@ -16,7 +16,7 @@ function App() {
         <Main />
         <Footer />
         <Address />
-        <StickyButtons />k
+        <StickyButtons />
       </Layout>
     </div>
   );
