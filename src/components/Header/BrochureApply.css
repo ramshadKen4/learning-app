@@ -7,6 +7,10 @@
   justify-content: center;
   /* Center align the buttons */
 }
+.brochure-apply a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .brochure-btn,
 .apply-btn {
@@ -36,14 +40,13 @@
   background-color: transparent;
 }
 
-.brochure-btn a {
+.brochure-btn {
   text-decoration: none;
   color: #016612;
 }
 
 .brochure-btn:hover ,.brochure-btn:hover a{
   background-color: #016612;
-  /* Set background color for Download Brochure button */
   color: #fff;
 }
 

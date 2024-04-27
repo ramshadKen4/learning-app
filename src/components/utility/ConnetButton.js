@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './ConnectButton.css';
 import Modal from './Modal';
+import Form from './Form';
 function ConnectButton({ children }) {
 
   const [showModal, setShowModal] = useState(false)
@@ -19,7 +20,9 @@ function ConnectButton({ children }) {
       <div className='connect-btn'>
         <button onClick={handleOpenModal}>{children}</button>
       </div>
-      <Modal isOpen={showModal} onClose={handleCloseModal} />
+      <Modal isOpen={showModal} onClose={handleCloseModal}>
+        <Form></Form>
+      </Modal>
     </>
   );
 }

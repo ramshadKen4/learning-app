@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Modal.css'
 
-function Modal({ isOpen, onClose }) {
+function Modal({ isOpen, onClose, children }) {
     useEffect(() => {
         const handleOutsideClick = (event) => {
             if (isOpen && !event.target.closest('.modal')) {
@@ -22,15 +22,7 @@ function Modal({ isOpen, onClose }) {
         <div className="modal-overlay">
             <div className="modal">
                 <div className="modal-content">
-                    <h2 className='modal-caption'>Enter Your Details</h2>
-                    <form>
-                        <input type="text" placeholder="First Name" />
-                        <input type="text" placeholder="Last Name" />
-                        <input type="email" placeholder="name@example.com" />
-                        <input type="tel" placeholder="Phone" />
-                        <textarea placeholder="message"></textarea>
-                        <button type="submit">Submit</button>
-                    </form>
+                    {children && children}
                 </div>
                 <button className="modal-close" onClick={onClose}>
                     &times;

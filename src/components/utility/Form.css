@@ -1,0 +1,65 @@
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Add some spacing between form elements */
+}
+
+.form input,
+.form textarea {
+    padding: 8px;
+    /* Add some padding for better spacing */
+    border: 1px solid #ccc;
+    /* Add a border */
+    border-radius: 4px;
+    /* Add some border radius for a smoother look */
+    font-size: 16px;
+    /* Adjust font size as needed */
+}
+
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+    /* Remove the default outline on focus */
+    border-color: #6c63ff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+    /* Add a subtle box shadow on focus */
+}
+
+.form textarea {
+    resize: vertical;
+    /* Allow vertical resizing of the textarea */
+    min-height: 100px;
+    /* Set a minimum height for the textarea */
+}
+
+.form button[type="submit"] {
+    padding: 10px 20px;
+    /* Add some padding to the submit button */
+    background-color: #6c63ff;
+    /* Set a background color */
+    color: #fff;
+    /* Set text color */
+    border: none;
+    /* Remove the default border */
+    border-radius: 4px;
+    /* Add some border radius */
+    font-size: 16px;
+    /* Adjust font size */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s ease;
+    /* Add a transition for smooth color change */
+}
+
+.form button[type="submit"]:hover {
+    background-color: #5549d6;
+    /* Change background color on hover */
+}
+
+.form .caption {
+    text-transform: none;
+    text-align: center;
+}
