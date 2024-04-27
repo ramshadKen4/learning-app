@@ -35,7 +35,7 @@ function Placements() {
     ];
     return (
         <>
-            <h2 className='extraspace center heading'><span className='aktiv-thin'><i>Our recent</i></span><br />placements</h2>
+            <h2 className='extraspace center heading'><span className='aktiv-thin'><i>Our recent</i></span><br />Placements</h2>
             <div className='placement'>
                 {placements.map((placement, index) => (
                     <ProfileCard

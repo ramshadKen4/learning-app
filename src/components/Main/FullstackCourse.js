@@ -2,7 +2,7 @@ import React from 'react'
 import PostCard from '../utility/PostCard'
 
 function FullstackCourse() {
-    const heading = <div className='extraspace'><span className='aktiv-thin'>Full stack Developer </span>Course Objectives</div>
+    const heading = <div className='extraspace'><span className='aktiv-thin'>Full Stack Developer </span>Course Objectives</div>
     return (
         <div className='learning'>
             <PostCard

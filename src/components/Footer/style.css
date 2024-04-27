@@ -37,10 +37,10 @@
 
 .testimonial-content {
     margin: 10px;
-    font-family: 'Merriweather';
-    font-size: 23px;
+    font-family:'Merriweather';
+    font-size:16px; /* 23*/
     letter-spacing: 1%;
-    line-height: 40px;
+    line-height: 30px;/*40*/
 }
 
 .placement {

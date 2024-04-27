@@ -6,7 +6,7 @@ function TiltleImage() {
     <div className="title-image">
       <div className="title">
         <h4>Learn</h4>
-        <h1>Full stack</h1>
+        <h1>Full Stack</h1>
         <h1>Development</h1>
         <h5>Training Program</h5>
       </div>

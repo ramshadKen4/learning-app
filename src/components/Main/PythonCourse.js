@@ -3,7 +3,7 @@ import PostCard from '../utility/PostCard'
 // import './PythonCourse.css'
 
 function PythonCourse() {
-    const heading = <><span className='aktiv-thin'>What are all the major things covered in our</span> Python Full-stack Development <span className='aktiv-thin'>course</span></>
+    const heading = <><span className='aktiv-thin'>What are all the major things covered in our</span> Full Stack Development <span className='aktiv-thin'>course</span></>
     const style = {
         color: '#282727',
         fontSize: '18px',

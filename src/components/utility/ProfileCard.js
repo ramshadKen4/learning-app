@@ -3,7 +3,7 @@ import './ProfileCard.css'
 
 function ProfileCard({profilePic, name, company, bg, children}) {
   return (
-    <div class="profile-card" style={{backgroundColor:bg}}>
+    <div class="profile-card" style={{backgroundColor:bg,}}>
       <div class="profile-pic-container">
         <div class="profile-pic">
           <img src={"/icons/" + profilePic} alt="Profile Pic" />
