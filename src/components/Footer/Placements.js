@@ -1,6 +1,5 @@
 import React from 'react'
 import ProfileCard from '../utility/ProfileCard';
-import ConnectButton from '../utility/ConnetButton';
 
 function Placements() {
     const placements = [
@@ -51,9 +50,6 @@ function Placements() {
                     </ProfileCard>
 
                 ))}
-            </div>
-            <div className='booking-btn'>
-                <ConnectButton>Book free consultation</ConnectButton>
             </div>
         </>
     )

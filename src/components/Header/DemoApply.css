@@ -1,70 +1,48 @@
 /* BrochureApply.css */
-.brochure-apply {
+.demo-apply {
   margin: 45px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* Center align the buttons */
 }
-.brochure-apply a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.brochure-btn,
+.demo-btn,
 .apply-btn {
   margin: 10px 12px;
   font-family: 'Aktiv-Bold', sans-serif;
-  color: #fff;
   font-size: 23px;
   text-transform: uppercase;
   border-radius: 8px;
   width: 440px;
   height: 60px;
-  background-color: #016612;
   border: 1px solid transparent;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
-.apply-btn {
-  background-color: #016612;
-  /* Set background color for Download Brochure button */
-  border: 1px solid #016612;
 
-}
-
-.brochure-btn {
-  border: 1px solid #016612;
-  background-color: transparent;
-}
-
-.brochure-btn {
-  text-decoration: none;
+.demo-btn button{
+  background-color:transparent;
   color: #016612;
+  text-decoration: none;
+  border-color: #016612;
 }
 
-.brochure-btn:hover ,.brochure-btn:hover a{
+.demo-btn button:hover{
   background-color: #016612;
-  color: #fff;
+  color:#fff;
 }
 
-.apply-btn:hover {
-  border: 1px solid #016612;
-  background-color: transparent;
-  color: black;
-}
 
 @media (max-width: 768px) {
-  .brochure-apply {
+  .demo-apply {
     flex-direction: column;
     /* Display buttons in a column on mobile */
     align-items: center;
     /* Center align the buttons on mobile */
   }
 
-  .brochure-btn,
+  .demo-btn,
   .apply-btn {
     font-size: 19px;
     width: 327px;
