@@ -1,19 +1,19 @@
-import React from 'react'
+import React ,{Component}from 'react'
 import './ProfileCard.css'
 
 function ProfileCard({profilePic, name, company, bg, children}) {
   return (
-    <div class="profile-card" style={{backgroundColor:bg,}}>
-      <div class="profile-pic-container">
-        <div class="profile-pic">
+    <div className="profile-card" style={{backgroundColor:bg}}>
+      <div className="profile-pic-container">
+        <div className="profile-pic">
           <img src={"/icons/" + profilePic} alt="Profile Pic" />
         </div>
       </div>
-      <div class="client-info">
-        <h3 class="client-name">{name}</h3>
-        <p class="client-role">{company}</p>
+      <div className="client-info">
+        <h3 className="client-name">{name}</h3>
+        <p className="client-role">{company}</p>
       </div>
-      <div class="profile-text">
+      <div className="profile-text">
         {children}
       </div>
     </div>
