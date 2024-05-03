@@ -38,11 +38,11 @@
 .form button[type="submit"] {
     padding: 10px 20px;
     /* Add some padding to the submit button */
-    background-color: #6c63ff;
+    background-color: transparent;
+    border:1px solid#016612;
     /* Set a background color */
-    color: #fff;
+    color: #016612;
     /* Set text color */
-    border: none;
     /* Remove the default border */
     border-radius: 4px;
     /* Add some border radius */
@@ -55,7 +55,8 @@
 }
 
 .form button[type="submit"]:hover {
-    background-color: #5549d6;
+    background-color: #016612;
+    color: #fff;
     /* Change background color on hover */
 }
 

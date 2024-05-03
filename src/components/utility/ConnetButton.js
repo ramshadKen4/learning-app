@@ -21,7 +21,7 @@ function ConnectButton({ children }) {
         <button onClick={handleOpenModal}>{children}</button>
       </div>
       <Modal isOpen={showModal} onClose={handleCloseModal}>
-        <Form></Form>
+        <Form submitHandler={handleCloseModal}></Form>
       </Modal>
     </>
   );
