@@ -20,6 +20,9 @@ function CareerSupport() {
                 <div className='conncect-button-xl'>
                     <ConnectButton>Connect With us</ConnectButton>
                 </div>
+                <div className='connect-button-mobile'>
+                    <ConnectButton>Connect With us</ConnectButton>
+                </div>
             </PostCard>
         </div>
     )
