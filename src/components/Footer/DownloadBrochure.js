@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './style.css'
 import Modal from '../utility/Modal';
 import Form from '../utility/Form';
-import ConnectButton from '../utility/ConnetButton';
 
 function DownloadBrochure() {
 
@@ -36,7 +35,7 @@ function DownloadBrochure() {
     return (<>
         <Modal isOpen={showModal} onClose={handleCloseModal}>
             <Form submitHandler={submitHandler}>
-                DownloadBrochure
+                Download Brochure
             </Form >
         </Modal>
         <div className='booking-btn'>
