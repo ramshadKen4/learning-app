@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './StickyButtons.css';
+import HoverIcon from './HoverIcon';
 
 const StickyButtons = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,18 +23,20 @@ const StickyButtons = () => {
   return (
     <div className={`sticky-buttons-container ${isVisible ? 'visible' : ''}`}>
       <div className="sticky-buttons">
-        <a href="tel:+917338497706" className="button-container">
-          <div className="button-icon">
-            <img src="/icons/call.svg" alt="Contact Icon" />
-          </div>
-          <span className="button-text">Contact</span>
+        <a href="https://wa.me/917338497706" className="whasapp">
+          <HoverIcon>
+            <div className="button-icon">
+              <img src="/icons/whatsapp.svg" alt="Chat Icon" />
+            </div>
+          </HoverIcon>
         </a>
-        <a href="https://wa.me/917338497706" className="button-container">
-          <div className="button-icon">
-            <img src="/icons/whatsapp.svg" alt="Chat Icon" />
-          </div>
-          <span className="button-text">Chat</span>
-        </a>
+        <div className="phone-number">
+          <button>
+            <a href="tel:+917338497706" >
+              <span className="button-text">Contact Us</span>
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

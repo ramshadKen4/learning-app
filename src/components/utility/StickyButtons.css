@@ -1,66 +1,86 @@
 .sticky-buttons-container {
-    position: fixed;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .sticky-buttons-container.visible {
-    opacity: 1;
-  }
-  
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.sticky-buttons-container.visible {
+  opacity: 1;
+}
+
+.sticky-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.phone-number {
+  display: none;
+}
+
+.whasapp {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin:10px;
+}
+
+.button-icon img {
+  margin: 5px;
+  margin-bottom: 0;
+  width: 56px;
+  height: 56px;
+}
+
+.button-text {
+  text-decoration: none;
+  font-family: 'AktivGrotesk-Medium';
+  font-size: 23.33px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  .sticky-buttons-container {}
+
   .sticky-buttons {
+    flex-direction: column;
+  }
+.whasapp{
+  margin:5px;
+}
+  .phone-number {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    max-width: 665px;
-    width: 100%;
+    background: rgba(255, 255, 255, 0.48);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(3.5px);
   }
-  
-  .button-container {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 11px 39px;
-    gap:10px;
-    background-color: #01bc20;
-  }
-  
-  .button-container:last-child {
+
+  .phone-number button {
     background-color: #016612;
+    padding:15px 100px;
+    margin:15px 10px;
+    margin-bottom:5px;
+    border-radius: 12px;
   }
-  
-  .button-icon img {
-    width: 24px;
-    height: 24px;
+
+  .phone-number a {
+    text-decoration: none;
   }
-  
-  .button-text {
-    
-    font-family: 'AktivGrotesk-Medium';
-    font-size: 23.33px;
-    line-height: 30px;
-    letter-spacing: 0.01em;
-    color: #ffffff;
-    text-transform: capitalize;
+
+  .button-container {
+    flex-direction: row;
+    width: 100%;
+    border-radius: 0px;
   }
-  @media (max-width: 767px) {
-    .sticky-buttons-container {
-    }
-  
-    .sticky-buttons {
-      flex-direction: row;
-    }
-  
-    .button-container {
-      flex-direction: row;
-      width: 100%;
-      border-radius: 0px;
-    }
-  }
+}
