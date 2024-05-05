@@ -20,7 +20,11 @@
     letter-spacing: 0.005em;
     text-transform: capitalize;
 }
-
+.phone_section{
+    display: flex;
+    flex-direction: row;  
+    column-gap:20px;
+}
 .phone-numbers {
     display: flex;
     flex-direction: column;
@@ -28,7 +32,9 @@
     font-size: 19.27px;
     line-height:30px;
     letter-spacing: 0.005em;
-    text-transform: capitalize;
+}
+.phone-numbers > span {
+    text-decoration:none
 }
 
 .separator {
@@ -45,9 +51,12 @@
         line-height:22px;
     }
     .phone-numbers{
-        margin-left:15px;
+        margin-left:10px;
         padding-right:0px;
-        font-size:13.5px;
+        font-size:12.5px;
+    }
+    .phone_section{
+        column-gap:0;
     }
 
 }
