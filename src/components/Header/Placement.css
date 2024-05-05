@@ -55,7 +55,7 @@
 .stats-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap:20px;
 }
 
 .stats-item {
@@ -102,6 +102,7 @@
   .stats-container>.stats:nth-child(2n) .stats-item,
   .stats-container>.stats:last-child .stats-item {
     border-right: none;
+    margin-left: 20px;
   }
 
   .number {
